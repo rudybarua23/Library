@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="library.css">
+</head>
+<body>
+    <header>
+        <h1>My Library</h1>
+    </header>
+    <main>
+        <section id="book-list">
+            <!-- Books will be added here -->
+        </section>
+        <button id="new-book-btn">Add New Book</button>
+        <!-- Add more sections as needed -->
+
+        <button type = "button" id = "plus">Plus</button>
+        <form id = "bookForm">
+            <div class = "att">
+                <label for="author">Author:</label>
+                <input type="text" id="author" name="author">
+            </div>
+
+            <div class = "att">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title">
+            </div>
+
+            <div class = "att">
+                <label for="pages">Number of Pages:</label>
+                <input type="number" id="pages" name="pages">
+            </div>
+
+            <div class = "att">
+                <button type = "button" id = "btn">Add</button>
+            </div>
+
+            <div class = "att">
+                <button type = "button" id = "close">Close</button>
+            </div>
+        </form>
+    </main>
+    <script src="library.js"></script>
+</body>
+</html>
